@@ -1,14 +1,13 @@
-<template>
-  <Main/>
+<script setup>
 
+</script>
+
+<template>
+    <router-view/>
 </template>
 
-<script lang="ts">
-
-import {defineComponent} from "vue";
-import Main from "./views/Main.vue";
-
-export default defineComponent({
-  components: {Main}
-})
-</script>
+<style>
+#app {
+    height: 100%;
+}
+</style>
